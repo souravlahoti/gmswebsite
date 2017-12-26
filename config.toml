@@ -1,0 +1,214 @@
+baseURL = "https://gmswebsite-43cb4.firebaseapp.com/"
+languageCode = "en-us"
+title = "Geek Monkey Studios"
+# Main config file for icon theme.
+theme = "hugo-icon"
+
+# Metadata
+[params]
+  author = "Sourav Lahoti"
+  description = "Geek Monkey Studios Website"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero1.jpg"
+  title = "Creating awesomeness "
+  description = "Lovingly hand-crafted by the fine folks"
+
+# Navigation section
+[params.nav]
+  mission = "Our Mission"
+  services = "Services"
+  team = "The Team"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  logo = "images/logo.png"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "appdevelopment"
+    title = "Web / IOT / App Dev"
+    subtitle = "Map a strategy, build a solution or elevate your product experience with focused engagements available as standalone offerings or as a part of your project’s service stack."
+    description = "<p>We think big, design smart and develop fast for all screens, projects and teams. Serving global leaders to entrepreneurs, we tailor our process based on your scale and structure.</p><ul class='checked'><li>Web Development - Reach User Across Platforms.</li><li>User Interface / Experience - Elevate your User Experience</li><li>Mobile App Development - Creating mobile applications to drive and grow your business.</li><li>IOT Solutions - Integrate and Visualize Data from Smart Device.</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "aidev"
+    title = "AI Dev"
+    subtitle = "We are heavily dependent on Artificial Intelligence, for example when we order from Amazon, or ask Siri for directions, chat with a customer service representative."
+    description = "<p>Deep data driven analysis is the difference between a struggling and a succesful business. With our data science, NLP, machine learning and computer vision expertise, we help you solve real world problems.<p><ul class='checked'><li>AI for Sales Boost</li><li>AI for Innovative Marketing Solutions</li><li>AI for Customer Retention and Customer Service</li></ul><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "training"
+    title = "Training & Solution"
+    subtitle = "Map Develpment to Business Opportunity."
+    description = "<p>Define the investment potential, technology stack, timeline, total cost of ownership and the ongoing maintenance required to launch and sustain a solution. Before beginning re-architecture or new development, we customize consulting engagements to examine your code base, align on current challenge areas and explore how to mitigate risks associated with leveraging existing code.</p><ul class='checked'> <li>Market Segmentation</li><li>Competitive Analysis</li><li>Architecture Consulting</li><li>Code Analysis</li><li>Monitoring</li><li>Server Maintenance</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+
+# Services section
+[params.services]
+  enable = true
+  video = true
+  vidlink = "#"
+  title = "Our Services"
+  description = "Core Project Competencies."
+
+  [[params.services.item]]
+    icon = "icon-desktop"
+    title = "Web Development"
+    description = "Custom web development offers options for businesses who seek to provide a flexible, consistent experience for users across platforms."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "User Experience"
+    description = "Creation of user experience or execute it through visual design, we bring expertise from proof-of-concept prototyping to complete mobile/web solution transformation."
+
+  [[params.services.item]]
+    icon = "icon-mobile-phone"
+    title = "Mobile Development"
+    description = "With experience in the range of development from pure native to cross platform apps, we can help you select the best choice for your project requirements."
+
+  [[params.services.item]]
+    icon = "icon-move"
+    title = "Internet of Things"
+    description = "We bring experience throughout the lifecycle of data from housing, synthesizing, and securing data to leveraging it & triggering related actions within your solution."
+
+  [[params.services.item]]
+    icon = "icon-rocket"
+    title = "Strategic Consulting"
+    description = "Define the investment potential, technology stack, timeline, total cost of ownership and the ongoing maintenance required to launch and sustain a solution."
+
+  [[params.services.item]]
+    icon = "icon-bolt"
+    title = "Artificial Intelligence"
+    description = "Deep data driven analysis is the difference between a struggling and a succesful business. With our data science, NLP, machine learning and computer vision expertise, we help you solve real world problems."
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Meet The Team"
+  description = "A perfect blend of creativity and technical wizardry."
+
+  [[params.team.item]]
+    name = "Abhishek Nandy"
+    position = "Chief Legend"
+    description = "AI and Machine Learning Specialist"
+    img = "images/person1.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    linkedin = "#"
+
+  [[params.team.item]]
+    name = "Sourav Lahoti"
+    position = "Chief Overlord"
+    description = "Full Stack Developer"
+    img = "images/person2.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+  # [[params.team.item]]
+  #   name = "John Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "HAVE A GREAT PROJECT IN MIND? "
+  message = "Fill out the form below. Let's bring your idea to reality."
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2016 Geek Monkey Studios. All Rights Reserved.</small> </p>"
+  github = "#"
+  twitter = "#"
+  facebook = "#"
+  vine = "#"
+  linkedin = "#"
+  instagram = "#"
