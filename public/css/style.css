@@ -717,13 +717,18 @@ p {
   background: #fff;
 }
 #fh5co-team .person img {
-  width: 190px;
+  width: 160px;
+  height: 160px;
   margin: 0 auto 30px auto;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+#honeypot {
+  display: none; /*makes the field not visible to humans*/
+}
+
 #fh5co-team .person h3 {
   margin-bottom: 0;
 }
