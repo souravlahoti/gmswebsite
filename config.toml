@@ -154,7 +154,7 @@ theme = "hugo-icon"
     name = "Abhishek Nandy"
     position = "Chief Legend"
     description = "AI and Machine Learning Specialist"
-    img = "images/person1.jpg"
+    img = "images/person1.gif"
     github = "#"
     linkedin = "#"
 
@@ -162,7 +162,7 @@ theme = "hugo-icon"
     name = "Sourav Lahoti"
     position = "Chief Overlord"
     description = "Full Stack Developer"
-    img = "images/person2.jpg"
+    img = "images/person2.gif"
     github = "#"
     linkedin = "#"
 
@@ -197,7 +197,7 @@ theme = "hugo-icon"
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
-  enable = true
+  enable = false
   note = "<p><small>&copy; 2016 Geek Monkey Studios. All Rights Reserved.</small> </p>"
   github = "#"
   twitter = "#"
